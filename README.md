@@ -118,6 +118,7 @@ All bugs estimated to take longer than a day can be saved and bundled together i
 - Effort Estimate (# of iterations)
 - Issue Type
 - Area
+- Size
 
 ## Work Item Visibility
 
