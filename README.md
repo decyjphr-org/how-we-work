@@ -1,4 +1,5 @@
-# Ideas for how to organize the software delivery process, deliverables, and run a project
+# How we organize our planning and tracking process.
+
 
 ## Work Items
 - Initiative
