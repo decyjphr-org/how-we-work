@@ -29,25 +29,13 @@
 - Done
   
 ## Where to track work items
-While Tasks and Batches are usually confined to one repo, for Epics and Initiatives, information and stakeholders may be scattered across multiple repos and teams and elsewhere. Centralizing conversation and context will pay dividends for the DRI and other stakeholders for the lifetime of the body of work.
+Initially we will track all work items in the same repo as the code is.
+
+As we evolve, Tasks and Batches(Features), and would be usually confined to one repo and so will be tracked in the repo where the code is.
+
+Epics and Initiatives would evolve into multiple product lines and mutiple repos. We might also want to isolate non-tech folks from low-level information and stakeholders may be scattered across multiple repos and teams and elsewhere. Centralizing conversation and context will pay dividends for the DRI and other stakeholders for the lifetime of the body of work.
 
 If the epic is a part of an overarching initiative, find that initiative and add a link to the epic. This will keep all initiative stakeholders aligned.
-
-## Attributes of a work item
-- Title
-- Status
-- Assignees
-- Priority
-- Start Iteration / Start Week
-- End Iteration / End Week
-- Effort Estimate (# of iterations)
-- Issue Type
-- Area
-
-## Work Item Visibility
-
-We should have a way to isolate and view each of the core __work items__ , their priorities in relation to one another, and their various stages.
-
 
 ## Initiative Workflow
 
@@ -103,3 +91,19 @@ To transistion a __batch__ from `backlog` to `ready for work` the general workfl
 - The Batch DRI communicates any changes during the execution of the batch, such as unexpected issues or a revised target date.
 - The Batch DRI will do the Acceptance testing and mark the status as `Done`
 - Upon completion meeting the agreed upon exit criteria, the Batch DRI should share a final update to the organization (via WhatApp) that the batch) has been completed that includes a demo/screenshots of the batch and any other pertinent information.
+
+## Attributes of a work item
+- Title
+- Status
+- Assignees
+- Priority
+- Start Iteration / Start Week
+- End Iteration / End Week
+- Effort Estimate (# of iterations)
+- Issue Type
+- Area
+
+## Work Item Visibility
+
+We should have a way to isolate and view each of the core __work items__ , their priorities in relation to one another, and their various stages.
+
