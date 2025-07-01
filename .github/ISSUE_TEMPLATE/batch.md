@@ -10,7 +10,7 @@ assignees: ""
 
 ### Summary
 
-_one or two human readable sentences describing the batch, short and_ :lollipop:
+_one or two human readable sentences describing the batch, short and_ 🍭
 
 ### Team
 
