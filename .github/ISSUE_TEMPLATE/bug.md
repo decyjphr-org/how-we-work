@@ -18,5 +18,9 @@ type: Bug
 
 ## Context
 
-#### Version of the app
+### Version of the app
+
+### Is this work urgent and if so why?
+
+<!-- describe the urgency -->
 
