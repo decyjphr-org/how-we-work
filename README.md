@@ -125,3 +125,175 @@ All bugs estimated to take longer than a day can be saved and bundled together i
 
 We should have a way to isolate and view each of the core __work items__ , their priorities in relation to one another, and their various stages.
 
+# Example Work Item Hierarchy: EHR Software 
+
+## Initiative 1: Patient Management
+
+### Epic 1.1: Patient Registration & Tracking
+
+#### Batch 1.1.1: Patient registration UI and API
+- **Task 1.1.1.1:** Build React.js patient registration forms (demographics, contact, ID proof)
+- **Task 1.1.1.2:** Implement Axios-based API calls to Node.js/Express backend
+- **Task 1.1.1.3:** Design patient registration REST endpoints in Node.js/Express
+- **Task 1.1.1.4:** Integrate patient data storage with EHRbase backend (via REST API)
+- **Task 1.1.1.5:** Persist patient records in PostgreSQL (Docker)
+
+#### Batch 1.1.2: Unique MRN generation logic
+- **Task 1.1.2.1:** Implement MRN generation algorithm in backend
+- **Task 1.1.2.2:** Store and retrieve MRNs via EHRbase/PostgreSQL
+- **Task 1.1.2.3:** Expose API endpoint for MRN assignment
+
+#### Batch 1.1.3: Visit/admission tracking (OPD/IPD)
+- **Task 1.1.3.1:** Create visit/admission tracking UI in React.js
+- **Task 1.1.3.2:** Implement Express endpoints for visit/admission events
+- **Task 1.1.3.3:** Store visit/admission data in EHRbase/PostgreSQL
+
+#### Batch 1.1.4: Consent forms and patient communications (Phase 2)
+- **Task 1.1.4.1:** Design digital consent form UI and APIs
+- **Task 1.1.4.2:** Store consent records securely (EHRbase/PostgreSQL)
+- **Task 1.1.4.3:** Implement patient communication templates and delivery logic
+
+---
+
+## Initiative 2: Clinical Documentation
+
+### Epic 2.1: Notes & Diagnosis
+
+#### Batch 2.1.1: SOAP note templates & progress notes
+- **Task 2.1.1.1:** Develop React.js dynamic forms for SOAP notes (specialty-based)
+- **Task 2.1.1.2:** Create API endpoints for storing/retrieving notes (Express)
+- **Task 2.1.1.3:** Map SOAP notes to EHRbase compositions/entries
+
+#### Batch 2.1.2: Diagnosis entry with ICD-10
+- **Task 2.1.2.1:** Integrate ICD-10 code search/autocomplete in frontend
+- **Task 2.1.2.2:** Store diagnoses as structured data in EHRbase/PostgreSQL
+
+#### Batch 2.1.3: Procedure documentation
+- **Task 2.1.3.1:** Create UI for procedure documentation (e.g., surgeries, biopsies)
+- **Task 2.1.3.2:** Persist procedure records in EHRbase/PostgreSQL
+
+---
+
+## Initiative 3: Orders & Results
+
+### Epic 3.1: Orders & Result Viewing
+
+#### Batch 3.1.1: CPOE (Computerized Physician Order Entry)
+- **Task 3.1.1.1:** Build React.js order entry forms (lab, imaging, meds)
+- **Task 3.1.1.2:** Implement order management APIs (Node/Express)
+- **Task 3.1.1.3:** Store orders in EHRbase/PostgreSQL
+
+#### Batch 3.1.2: Order sets and templates
+- **Task 3.1.2.1:** Allow creation and management of order sets/templates (UI + API)
+- **Task 3.1.2.2:** Store order sets as reusable entities in backend
+
+#### Batch 3.1.3: Lab/radiology result viewer
+- **Task 3.1.3.1:** Develop results viewer UI in React.js (structured + attachments)
+- **Task 3.1.3.2:** Fetch results from EHRbase and display attachments (images, PDFs)
+
+---
+
+## Initiative 4: Medication Management
+
+### Epic 4.1: Medications & Pharmacy
+
+#### Batch 4.1.1: Medication orders and scheduling
+- **Task 4.1.1.1:** Create medication order UI in React.js
+- **Task 4.1.1.2:** API for medication administration scheduling (Express)
+- **Task 4.1.1.3:** Store scheduling data in EHRbase/PostgreSQL
+
+#### Batch 4.1.2: eMAR, drug interaction, inventory linkage (Phase 2)
+- **Task 4.1.2.1:** eMAR UI and backend logic
+- **Task 4.1.2.2:** Drug interaction engine integration (backend)
+- **Task 4.1.2.3:** Inventory linkage APIs for pharmacy dispensation
+
+#### Batch 4.1.3: Injections, infusions, ad hoc medicines
+- **Task 4.1.3.1:** UI and backend for ad hoc medication entries
+
+---
+
+## Initiative 5: Nursing & Allied Health
+
+### Epic 5.1: Nursing & Therapy
+
+#### Batch 5.1.1: Nursing notes and shift/task documentation
+- **Task 5.1.1.1:** UI for nursing notes (shift-wise, task-based)
+- **Task 5.1.1.2:** API and storage for nursing notes
+
+#### Batch 5.1.2: Vital signs charting, intake/output
+- **Task 5.1.2.1:** Implement charting UI (React.js) and backend endpoints
+- **Task 5.1.2.2:** Store vital signs and intake/output in EHRbase/PostgreSQL
+
+#### Batch 5.1.3: Therapy notes (Phase 2)
+- **Task 5.1.3.1:** UI and backend for physio, nutrition, speech therapy notes
+
+---
+
+## Initiative 6: Discharge & Continuity of Care
+
+### Epic 6.1: Discharge & Follow-up
+
+#### Batch 6.1.1: Discharge summaries
+- **Task 6.1.1.1:** Generate discharge summaries (template-driven UI)
+- **Task 6.1.1.2:** Store/print summaries from EHRbase
+
+#### Batch 6.1.2: Referral, follow-up, CCD/FHIR (Phase 2)
+- **Task 6.1.2.1:** Referral and follow-up scheduling UI and backend
+- **Task 6.1.2.2:** CCD/FHIR resource generation for continuity of care
+
+---
+
+## Initiative 7: External Integration & Standards
+
+### Epic 7.1: Interoperability
+
+#### Batch 7.1.1: HL7/FHIR, DICOM, ePrescription, HIE (Phase 3)
+- **Task 7.1.1.1:** FHIR API endpoints and mapping to EHRbase
+- **Task 7.1.1.2:** HL7 message processing in Node.js
+- **Task 7.1.1.3:** DICOM PACS integration module (backend)
+- **Task 7.1.1.4:** ePrescription API implementation (National Health Stack)
+- **Task 7.1.1.5:** Aadhaar, ABHA ID integration (backend + frontend)
+- **Task 7.1.1.6:** Health Information Exchange (HIE) secure API layer
+
+---
+
+## Initiative 8: Security & Compliance
+
+### Epic 8.1: Security Features
+
+#### Batch 8.1.1: RBAC, audit trails, consent, encryption
+- **Task 8.1.1.1:** RBAC implementation (roles/permissions in backend)
+- **Task 8.1.1.2:** Audit trail logging (read/write) in Express/Node.js
+- **Task 8.1.1.3:** Consent management UI and backend (Phase 2)
+- **Task 8.1.1.4:** Encryption at rest (PostgreSQL) and in transit (HTTPS)
+
+### Epic 8.2: Standards Compliance
+
+#### Batch 8.2.1: HIPAA/NABH/NDHM (Phase 3)
+- **Task 8.2.1.1:** HIPAA/NABH/NDHM documentation and gap analysis
+- **Task 8.2.1.2:** Compliance enforcement in API, database, and logging
+
+---
+
+## Initiative 9: Analytics & Decision Support
+
+### Epic 9.1: Clinical Analytics
+
+#### Batch 9.1.1: Dashboards & Tracking
+- **Task 9.1.1.1:** Clinical dashboards (React.js + backend API)
+- **Task 9.1.1.2:** Backend aggregation for outcomes, infections, etc.
+
+### Epic 9.2: Alerts & Predictive Tools (Phase 2)
+
+#### Batch 9.2.1: Alerts, predictive analytics, resource utilization
+- **Task 9.2.1.1:** Alerting system (drug interactions, critical labs)
+- **Task 9.2.1.2:** Predictive analytics (readmission risk) engine
+- **Task 9.2.1.3:** Resource utilization tracking (backend + dashboard)
+
+---
+
+**Legend:**  
+- *Initiative*: Major functional area  
+- *Epic*: Sub-area or core subdomain  
+- *Batch*: Group of closely-related deliverables  
+- *Task*: Smallest actionable unit, broken down by stack: React.js (frontend), Axios/API, Node.js/Express (API), EHRbase (backend), PostgreSQL (DB)
