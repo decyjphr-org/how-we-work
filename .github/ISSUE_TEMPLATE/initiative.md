@@ -52,12 +52,11 @@ assignees: ""
 
 <!-- List of known risks & dependencies to complete this work -->
 
-```[tasklist]
 ### Corresponding Work
 <!-- Add Epics (or Batches when no Epics are available) that ladder up to this initiative. -->
 - [ ] Issue 1
 - [ ] Issue 2
-```
+
 
 ### Communication Plan
 
