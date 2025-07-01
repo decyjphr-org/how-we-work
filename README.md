@@ -92,6 +92,22 @@ To transistion a __batch__ from `backlog` to `ready for work` the general workfl
 - The Batch DRI will do the Acceptance testing and mark the status as `Done`
 - Upon completion meeting the agreed upon exit criteria, the Batch DRI should share a final update to the organization (via WhatApp) that the batch) has been completed that includes a demo/screenshots of the batch and any other pertinent information.
 
+
+- A __batch__ will be merged to the parent branch when it is done. Batch from an Epic will be merged to the Epic, but`standalone`  __batch__ will be merged to `main` .
+
+## Task Workflow
+Use their best judgment for small bugs and improvement tasks. 
+
+If you are working in an area and there are small (< 2 hours) fixes to make, just do it. If you are somehow blocked or just need a break and want to pick up a small bug to fix, do it.
+
+Similarly for engineering improvements, if the team agrees that it’s important and doesn’t significantly impact the committed work the team has already taken on, do it.
+
+For urgent issues, do the right thing: mitigate live-site issues, unblock broken builds and failing deployments.
+
+Also - if you find an issue that's blocking you completing your current in-flight work, and it's something you can fix, just fix it - it's part of that work item.
+
+All bugs estimated to take longer than a day can be saved and bundled together in a __batch__. Larger bugs (2+ days) can also become their own __batch__ and get prioritized alongside other __batch__ work. The key is to keep the work visible.
+
 ## Attributes of a work item
 - Title
 - Status
