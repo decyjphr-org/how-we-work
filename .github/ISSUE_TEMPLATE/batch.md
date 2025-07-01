@@ -2,11 +2,11 @@
 name: 🚲 Batch template
 about: Tracking issue for batches.
 title: "[Batch] "
-type: "Batch"
+type: Batch
 assignees: ""
 ---
 
-<!-- This issue template is managed by the github/howie team and may evolve over time -->
+<!-- This issue template is experimental may evolve over time -->
 
 ### Summary
 
