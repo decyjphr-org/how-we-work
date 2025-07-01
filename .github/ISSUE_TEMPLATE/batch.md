@@ -2,7 +2,7 @@
 name: 🚲 Batch template
 about: Tracking issue for batches.
 title: "[Batch] "
-type: Batch
+type: "Batch"
 assignees: ""
 ---
 
