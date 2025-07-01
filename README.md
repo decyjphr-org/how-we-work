@@ -110,6 +110,7 @@ All bugs estimated to take longer than a day can be saved and bundled together i
 
 ## Attributes of a work item
 - Title
+- Description
 - Status
 - Assignees
 - Priority
