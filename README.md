@@ -29,7 +29,7 @@
 - Done
   
 ## Where to track work items
-Initially we will track all work items in the same repo as the code is.
+Initially we will track all work items (Github Issues) in the same repo as the code is.
 
 As we evolve, Tasks and Batches(Features), and would be usually confined to one repo and so will be tracked in the repo where the code is.
 
