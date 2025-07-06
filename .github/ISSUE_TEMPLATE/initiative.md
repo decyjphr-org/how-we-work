@@ -27,6 +27,9 @@ assignees: ""
 | TPM                   | @username(s) |
 | Others                | @username(s) |
 
+<details>
+<summary>🙋‍♂️ What does it mean?</summary>
+
 **DRI Responsibilities:**
 
 - Provide regular status updates on area deliverables to keep all stakeholders in the loop
@@ -35,6 +38,8 @@ assignees: ""
 
 - Provide visibility to work / deliverables that the workstream will deliver for the initiative
 - Identify cross-functional dependencies
+
+</details>
 
 ### Key Results (KRs)
 
