@@ -1,10 +1,14 @@
 ---
 name: adr
 about: ADR
-title: "[num]. [Title]"
+title: "[num]. [Short title describing the issue]"
 ---
 
-Date: [created-date]
+Date created: YYYY-MM-DD
+
+Related issue: [link to relevant GitHub initiative/epic/batch that prompted this ADR]
+
+Author(s): @handle
 
 ## Status
 
@@ -12,11 +16,14 @@ Date: [created-date]
 - Proposed
 - Accepted
 - Abandoned
+- Rejected 
+- Deprecated 
+- Superseded
 -->
 
 ## Context
 
-<!-- Problem statement -->
+<!-- What is the issue we're seeing that is motivating this decision or change -->
 
 ### Terminology
 
@@ -32,13 +39,14 @@ Date: [created-date]
 
 ## Decision
 
-<!-- Proposed Approach -->
+<!-- What is the change we're proposing and/or doing? Why was it chosen out of all the options that were considered -->
 
 ### Alternatives Considered
 
 <!-- Alternatives Considered -->
 
 ## Consequences
+<!-- What becomes easier or more difficult to do because of this change? Are there any risks or unknowns -->
 
 ### Consequence 1
 - ...
@@ -55,3 +63,7 @@ Date: [created-date]
 
 ### Ownership and Maintenance
 - ...
+
+### Additional details
+
+OPTIONAL: This section can provide implementation details, examples, future plans, etc.
