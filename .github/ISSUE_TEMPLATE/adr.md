@@ -1,6 +1,6 @@
 ---
 name: adr
-about: ADR
+about: Architecture Decision Record
 title: "[num]. [Short title describing the issue]"
 ---
 
@@ -13,6 +13,7 @@ Author(s): @handle
 ## Status
 
 <!--
+- Draft
 - Proposed
 - Accepted
 - Abandoned
