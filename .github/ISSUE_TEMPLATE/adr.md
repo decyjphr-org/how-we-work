@@ -1,5 +1,5 @@
 ---
-name: adr
+name: 🏢 ADR
 about: Architecture Decision Record
 title: "[num]. [Short title describing the issue]"
 ---
